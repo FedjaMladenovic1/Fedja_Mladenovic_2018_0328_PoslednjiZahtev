@@ -1,15 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html>
+<?php require('./head.php') ?>
+
 <body>
-    proba 
-    proba 2
-    hey heydad
-    dadsdsffafsafasfsff
+    <?php require('./navbar.php') ?>
+
+    <div class="container">
+        <h3>Pregled svih utakmica:</h3>
+        <table class="table table-info">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Datum</th>
+                    <th>Domacin</th>
+                    <th>Poeni domacin</th>
+                    <th>Poeni gost</th>
+                    <th>Gost</th>
+                    <th>Brisanje utakmice</th>
+                </tr>
+            </thead>
+            <tbody id="prikazUtakmica">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    
 </body>
+
 </html>
