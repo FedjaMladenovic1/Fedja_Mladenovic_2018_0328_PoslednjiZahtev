@@ -23,8 +23,8 @@
         </table>
     </div>
 
-
-    
+    <?php require('./scripts.php') ?>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
