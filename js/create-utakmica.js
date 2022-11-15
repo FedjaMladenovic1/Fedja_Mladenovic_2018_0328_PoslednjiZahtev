@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    const baseURL = "http://localhost:8081/PrviDomaci/Mladen/api";
+    const baseURL = "http://localhost:8081/api";
     let ekipe = Array();
     $.ajax({
       type: "GET",
