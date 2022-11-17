@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    const baseURL = "http://localhost:8081/api";
+    const baseURL = "http://localhost:8081/Fedja_Mladenovic_2018_0328_Domaci_1/api";
   
     fetchTabele();
     function fetchTabele() {

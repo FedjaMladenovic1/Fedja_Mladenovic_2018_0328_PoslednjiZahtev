@@ -65,7 +65,7 @@ class Utakmica
         $sql = "INSERT INTO " . $this->table_name . " ( id_gost, id_domacin, broj_poena_gost, broj_poena_domacin ) VALUES ($this->id_gost, $this->id_domacin,$this->broj_poena_gost,$this->broj_poena_domacin)";
 
         $this->conn->query($sql);
-        $this->id_ekipa = $this->conn->insert_id;
+        
     }
     public function get_pobednik_id()
     {
